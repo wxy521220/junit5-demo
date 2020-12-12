@@ -1,4 +1,4 @@
-package com.calculate;
+package com.junit5.calculate;
 
 import com.demo.Calculate;
 import io.qameta.allure.*;

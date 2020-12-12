@@ -1,4 +1,4 @@
-package com.paramtest;
+package com.junit5.paramtest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

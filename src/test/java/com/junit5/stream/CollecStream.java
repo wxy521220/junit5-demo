@@ -1,5 +1,5 @@
 /*
-package com.stream;
+package com.junit5.stream;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Data;

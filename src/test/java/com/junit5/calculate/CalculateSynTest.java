@@ -1,9 +1,7 @@
-package com.calculate;
+package com.junit5.calculate;
 
 import com.demo.Calculate;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertAll;

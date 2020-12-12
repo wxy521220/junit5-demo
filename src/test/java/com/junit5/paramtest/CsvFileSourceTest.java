@@ -1,4 +1,4 @@
-package com.paramtest;
+package com.junit5.paramtest;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -6,7 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.junit.jupiter.params.provider.CsvSource;
 
 public class CsvFileSourceTest {
 

@@ -39,11 +39,17 @@
         <version>1.2.0</version>
     </dependency>
     <dependency>
-    <groupId>io.qameta.allure</groupId>
-    <artifactId>allure-junit5</artifactId>
-    <version>RELEASE</version>
-    <scope>test</scope>
-</dependency>
+        <groupId>net.lightbody.bmp</groupId>
+        <artifactId>browsermob-core</artifactId>
+        <version>2.1.5</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-junit5</artifactId>
+        <version>RELEASE</version>
+        <scope>test</scope>
+    </dependency>
 
 </dependencies>
 

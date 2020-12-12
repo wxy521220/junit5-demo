@@ -1,4 +1,4 @@
-package com.stream;
+package com.junit5.stream;
 
 import org.junit.jupiter.api.Test;
 

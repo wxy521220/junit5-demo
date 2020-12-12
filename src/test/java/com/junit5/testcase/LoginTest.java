@@ -1,4 +1,4 @@
-package com.testcase;
+package com.junit5.testcase;
 
 import org.junit.jupiter.api.*;
 

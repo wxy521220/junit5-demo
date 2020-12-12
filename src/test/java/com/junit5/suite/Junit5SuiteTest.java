@@ -1,4 +1,4 @@
-package com.suite;
+package com.junit5.suite;
 
 
 import org.junit.platform.runner.JUnitPlatform;
@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectPackages({
-        "com.testcase1","com.testcase2"
+        "com.junit5.testcase1","com.junit5.testcase2"
 })
 @IncludePackages(
-        "com.testcase1"
+        "com.junit5.testcase1"
 )
 
 public class Junit5SuiteTest {

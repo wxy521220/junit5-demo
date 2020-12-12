@@ -1,4 +1,4 @@
-package com.paramtest;
+package com.junit5.paramtest;
 
 
 import org.junit.jupiter.params.ParameterizedTest;
