@@ -38,16 +38,55 @@
         <artifactId>junit-platform-launcher</artifactId>
         <version>1.2.0</version>
     </dependency>
+
+    <!--生成测试报告-->
+    <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-junit5</artifactId>
+        <version>RELEASE</version>
+        <scope>test</scope>
+    </dependency>
+
+
+    <!--BMP proxy-->
     <dependency>
         <groupId>net.lightbody.bmp</groupId>
         <artifactId>browsermob-core</artifactId>
         <version>2.1.5</version>
         <scope>test</scope>
     </dependency>
+    <!--REST Assured-->
     <dependency>
-        <groupId>io.qameta.allure</groupId>
-        <artifactId>allure-junit5</artifactId>
-        <version>RELEASE</version>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>4.3.3</version>
+        <scope>test</scope>
+    </dependency>
+    <!--JsonPath-->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-path</artifactId>
+        <version>4.3.3</version>
+        <scope>test</scope>
+    </dependency>
+    <!--XmlPath-->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>xml-path</artifactId>
+        <version>4.3.3</version>
+        <scope>test</scope>
+    </dependency>
+    <!--JSON Schema Validation-->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-schema-validator</artifactId>
+        <version>4.3.3</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>spring-mock-mvc</artifactId>
+        <version>4.3.3</version>
         <scope>test</scope>
     </dependency>
 
