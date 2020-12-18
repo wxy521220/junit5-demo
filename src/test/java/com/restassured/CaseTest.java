@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class caseTest {
+public class CaseTest {
 
 
     @Test
@@ -46,5 +46,17 @@ public class caseTest {
 
         //ww8e52f76113da9d96
         //4eRKJ-_kzAC4R-XsPisRyoM_v-7NzhgH9pqzjthZXdg
+    }
+
+
+    @Test
+    public  void method04(){
+        given()
+                .get("http://localhost:8888/assetApp/login")
+                .then()
+                .statusCode(200)
+                .body("lotto.winners.winnerId",hasItems(23,54))
+                .body("lotto.lottoId",equalTo(5))
+                .log().all();
     }
 }
